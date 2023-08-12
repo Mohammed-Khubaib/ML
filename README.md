@@ -1,1 +1,37 @@
 # ML
+- Agglomerative
+  - Agglomerative.ipynb
+  - Logistic_Iris.csv
+- DecisionTree
+  - Decision_Tree.ipynb
+  - Logistic_Iris.csv
+- Ensemble Techniques
+  - Bagging.ipynb
+  - Boosting.ipynb
+  - Logistic_Iris.csv
+  - Random Forest.ipynb
+- KNN
+  - KNN.ipynb
+  - Logistic_Iris.csv
+- K_means
+  - Logistic_Iris.csv
+  - k_means.ipynb
+- Liniear_Regession.ipynb
+- Logistic_regression
+  - Logistic_Iris.csv
+  - Logistic_Regression.ipynb
+- Multiple_Linear_Regression.ipynb
+- Naive_Baies
+  - Logistic_Iris.csv
+  - Naive_Baies.ipynb
+- Performance
+  - Logistic_Iris.csv
+  - performance_matrics.ipynb
+- SVM
+  - Logistic_Iris.csv
+  - SVM.ipynb
+- pandas_numpy_scipy
+  - data.csv
+  - dataset1.csv
+  - dataset2.csv
+  - pandas_numpy_scipy.ipynb
