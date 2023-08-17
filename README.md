@@ -1,3 +1,4 @@
+- [All Classifiers in one Place](./Generalised%20Program%20For%20Classifiers.md)
 - [pandas_numpy_scipy](https://github.com/Mohammed-Khubaib/ML/tree/main/pandas_numpy_scipy)
   - pandas_numpy_scipy.ipynb
   - data.csv
