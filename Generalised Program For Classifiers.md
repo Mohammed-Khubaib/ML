@@ -131,7 +131,7 @@ tree.plot_tree(dtree_gini , rounded = True,fontsize = 10)
 
 <aside>
 
-### Performace Matrix :
+### Performace metrics :
 
 - Just change the values of y with : [Acc,Pres,Tpr,Fpr] one after the other
 
