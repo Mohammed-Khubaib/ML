@@ -1,7 +1,7 @@
 # Generalised Program For Classifiers:
 
 <aside>
-🤖 **Classifiers Includes :**
+🤖 Classifiers Includes:
 
 1. Logistic Regression
 2. Decison Tree
@@ -14,8 +14,10 @@
     3. Random Forest
 </aside>
 
+---
+
 <aside>
-💀 **A Generalised Program For Classifiers :**
+💀 A Generalised Program For Classifiers :
 
 ```python
 import numpy as np
@@ -27,8 +29,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
-from sklearn.model_selectionimport train_test_split
-from sklearn.preprocessingimport StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score,confusion_matrix,precision_score,recall_score
 from sklearn import tree
 ```
@@ -70,27 +72,20 @@ tpr = recall_score(ytest, y_pred,average='macro')
 fpr = 1 - tpr
 ```
 
-```python
-# General Code for plotting Confusion Matrix
-
-plt.figure(figsize=(8, 6))
-sns.heatmap(cm, annot=True, fmt="d",cbar=False,xticklabels=['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'],yticklabels=['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'])
-plt.title("Confusion Matrix for Logistic Regression Classifier")
-plt.xlabel("Predicted Labels")
-plt.ylabel("Actual Labels")
-plt.show()**⬇️ Only for Decision Tree :**
-```
-
 </aside>
 
+---
+## Important Plots :
+
 <aside>
-💀 **Logistic Regression :**
+    
+### Logistic Regression :
 
 - Note that you can change the values of x and y with :
     - `Petal Length`
     - `Peatal Width`
-    - `Sepal Length'`
-    - `Sepal Width'`
+    - `Sepal Length`
+    - `Sepal Width`
     
     ```python
     sns.regplot(x='Sepal Length',y='Sepal Width',data=dataset)
@@ -99,8 +94,11 @@ plt.show()**⬇️ Only for Decision Tree :**
     
 </aside>
 
+---
+
 <aside>
-💀 Confusion Matrix for All Classifiers :
+    
+### Confusion Matrix for All Classifiers :
 
 ```python
 # Create a heatmap of the confusion matrix
@@ -114,8 +112,11 @@ plt.show()
 
 </aside>
 
+---
+
 <aside>
-💀 Decision Tree :
+
+### only for Decision Tree :
 
 ```python
 tree.plot_tree(dtree_gini , rounded = True,fontsize = 10)
@@ -123,8 +124,11 @@ tree.plot_tree(dtree_gini , rounded = True,fontsize = 10)
 
 </aside>
 
+---
+
 <aside>
-💀 Performace Matrix :
+
+### Performace Matrix :
 
 - Just change the values of y with : [Acc,Pres,Tpr,Fpr] one after the other
 
