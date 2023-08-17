@@ -34,7 +34,7 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score,confusion_matrix,precision_score,recall_score
+from sklearn.metrics import accuracy_score,confusion_matrix,precision_score,recall_score,f1_score
 from sklearn import tree
 ```
 
@@ -73,6 +73,7 @@ cm =confusion_matrix(ytest, y_pred)
 pres=precision_score(ytest, y_pred,average='macro')
 tpr = recall_score(ytest, y_pred,average='macro')
 fpr = 1 - tpr
+f1 = f1_score(ytest, y_pred,average='macro')
 ```
 
 </aside>
@@ -133,7 +134,7 @@ tree.plot_tree(dtree_gini , rounded = True,fontsize = 10)
 
 ### Performace metrics :
 
-- Just change the values of y with : [Acc,Pres,Tpr,Fpr] one after the other
+- Just change the values of y with : `[Acc,Pres,Tpr,Fpr,F1]` one after the other
 
 ```python
 plt.subplots(figsize=(3,3))
